@@ -71,6 +71,27 @@ body {
             cursor: pointer;
             font-size: 14px; 
         }
+        .program-option,
+        .yearlevel-option {
+            margin-bottom: 15px;
+        }
+        .option-group {
+            display: flex;
+            align-items: center;
+        }
+        .option-group input[type="checkbox"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 16px; 
+            height: 16px; 
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-right: 10px;
+            cursor: pointer;
+            position: relative;
+            background-color: white;
+        }
+
 
 
 
