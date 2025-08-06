@@ -123,6 +123,25 @@ body {
             white-space: nowrap;
             color: #ffffff;
         }
+         .upload-section input[type="file"] {
+            display: none;
+        }
+        .upload-button {
+            background-color: #1a1a2e;
+            color: #fff;
+            border: 1px solid #555;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        .upload-button:hover,
+        .upload-button:focus {
+         background-color: #000000;
+         border-color: #999;
+         box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);;
+        }
+
 
 
 
