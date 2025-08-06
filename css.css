@@ -45,5 +45,15 @@ body {
             box-sizing: border-box;
             color: white;
         }
+        .form-group select,
+        .upload-button {
+            background-color: white !important;
+            color: black !important;
+        }
+         hr {
+            border: none;
+            border-top: 1px solid white;
+            margin: 20px 0;
+         }
 
 
